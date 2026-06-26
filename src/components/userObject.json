@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Ejhirooghene",
+    "age": 37,
+    "condition": true
+  },
+  {
+    "id": 2,
+    "name": "Ayoola",
+    "age": 30,
+    "condition": false
+  },
+  {
+    "id": 3,
+    "name": "David",
+    "age": 28,
+    "condition": true
+  },
+  {
+    "id": 4,
+    "name": "Majonr",
+    "age": 35,
+    "condition": false
+  },
+  {
+    "id": 5,
+    "name": "Alex",
+    "age": 25,
+    "condition": true
+  }
+]
