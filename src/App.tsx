@@ -1,4 +1,4 @@
-import ExternalList from "./components/externalList";
+import NavBar from "./components/navBar";
 
 const App = () => {
   // const age = 18;
@@ -9,7 +9,11 @@ const App = () => {
   // };
   // condition ? true : false
 
-  return <></>;
+  return (
+    <>
+      <NavBar />
+    </>
+  );
 };
 
 export default App;
