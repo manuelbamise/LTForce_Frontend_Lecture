@@ -7,13 +7,9 @@ const App = () => {
   // const calAge = (x: number, y: number): number => {
   //   return x + y;
   // };
+  // condition ? true : false
 
-  return (
-    <>
-      <h1>New Html file</h1>
-      <ExternalList />
-    </>
-  );
+  return <></>;
 };
 
 export default App;
