@@ -1,3 +1,5 @@
+import NewText from "./components/newText";
+import OldText from "./components/oldText";
 import Person from "./components/person";
 
 interface People {
@@ -25,7 +27,6 @@ const App = () => {
     <>
       {/*<NavBar />*/}
       {/*<Person name="adejare" age="45" city="lagos" />*/}
-
       {people &&
         people.map((person, index) => (
           <div key={index}>
@@ -37,7 +38,17 @@ const App = () => {
             />{" "}
             <br />
           </div>
-        ))}
+        ))}{" "}
+      <br />
+      <NewText>
+        this is the new text written in the app.tsx component, but rendered by
+        the New Text component
+      </NewText>{" "}
+      <br />
+      <OldText>
+        this is the old text written in the app.tsx component, but rendered by
+        the Old Text component
+      </OldText>
     </>
   );
 };
