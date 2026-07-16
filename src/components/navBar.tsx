@@ -1,10 +1,10 @@
 const NavBar = () => {
   const navItems = ["Home", "About", "Profile"];
 
-  const userObject = [
-    { name: "hsgdhs", age: 233, department: "jhdfjdjfjadhfj" },
-    { name: "hsgdhs", age: 233, department: "jhdfjdjfjadhfj" },
-  ];
+  // const userObject = [
+  //   { name: "hsgdhs", age: 233, department: "jhdfjdjfjadhfj" },
+  //   { name: "hsgdhs", age: 233, department: "jhdfjdjfjadhfj" },
+  // ];
 
   return (
     <nav className=" w-full flex flex-row item-center justify-center mt-4">
